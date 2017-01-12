@@ -1,0 +1,19 @@
+{
+  "name": "express-dist",
+  "version": "1.0.0",
+  "description": "express server with public dist folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "dist"
+  ],
+  "author": "nicoandres.rodriguez@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.0.34",
+    "express": "^4.14.0"
+  }
+}
