@@ -17,4 +17,6 @@ var ServeDist = (function () {
     };
     return ServeDist;
 }());
-exports.dist = function (port) { return new ServeDist(port); };
+exports.ServeDist = ServeDist;
+exports.__esModule = true;
+exports["default"] = ServeDist;
