@@ -1,20 +1,20 @@
 "use strict";
 var express = require("express");
-var ServeDist = (function () {
-    function ServeDist(_port) {
+var PublishDist = (function () {
+    function PublishDist(_port) {
         this._port = _port;
         this._msgConsoleStartApp = "App listening on port: ";
         this._app = express();
         this.setupExpressServer();
     }
-    ServeDist.prototype.setupExpressServer = function () {
+    PublishDist.prototype.setupExpressServer = function () {
         var _this = this;
         this._app.use("/", express.static("dist"));
         this._app.listen(this._port, function () { return console.log(_this.getInitialMsg()); });
     };
-    ServeDist.prototype.getInitialMsg = function () {
+    PublishDist.prototype.getInitialMsg = function () {
         return this._msgConsoleStartApp + this._port;
     };
-    return ServeDist;
+    return PublishDist;
 }());
-exports.serveDist = function (port) { return new ServeDist(port); };
+exports.publishDist = function (port) { return new PublishDist(port); };
