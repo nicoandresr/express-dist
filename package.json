@@ -1,7 +1,7 @@
 {
-  "name": "express-dist",
+  "name": "serve-dist",
   "version": "1.0.0",
-  "description": "express server with public dist folder",
+  "description": "express server for serve dist folder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

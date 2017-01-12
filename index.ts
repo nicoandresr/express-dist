@@ -1,6 +1,6 @@
 import * as express from 'express';
 
-class PublishDist {
+class ServeDist {
   private _app: express.Application;
   private _msgConsoleStartApp: string = "App listening on port: ";
 
@@ -19,4 +19,4 @@ class PublishDist {
   }  
 }
 
-exports.publishDist = (port) => new PublishDist(port);
+exports.dist = (port) => new ServeDist(port);
