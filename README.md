@@ -1,2 +1,2 @@
-# express-dist
-express server for public dist folder
+# serve-dist
+serve for public dist folder whit express js
