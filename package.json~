@@ -1,14 +1,10 @@
 {
   "name": "serve-dist",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "express server for serve dist folder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nicoandresr/serve-dist"
   },
   "keywords": [
     "express",
