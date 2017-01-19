@@ -1,6 +1,6 @@
 {
   "name": "serve-dist",
-  "version": "1.0.4",
+  "version": "1.0.11",
   "description": "express server for serve dist folder",
   "main": "index.js",
   "scripts": {
